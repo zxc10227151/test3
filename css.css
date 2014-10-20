@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+}
+#menu-wrapper .main-menu , #menu-wrapper .sub-menu {
+	margin: 0 auto;
+	width: 980px;
+}
+#menu-wrapper ul, #menu-wrapper ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.main-menu ul li, .sub-menu ul li {
+	float: left;
+}
+.main-menu ul li a {
+	color: #000;
+	display: block;
+	margin-right: 50px;
+	padding: 5px 5px 5px 0;
+	text-decoration: none;
+}
+.sub-menu-wrapper {
+	height: 28px;
+	clear: left;
+	background-color: #f90;
+	border-top: 5px solid #f90;	/* 預設使用跟 .c1 一樣的顏色 */
+}
+.sub-menu {
+	height: 28px;
+	position: relative;
+	overflow: hidden;
+}
+.sub-menu ul {
+	position: absolute;
+}
+.sub-menu ul li a {
+	color: #fff;
+	display: block;
+	margin-right: 20px;
+	padding-top: 2px;
+	text-decoration: none;
+}
+/* 自訂子選單的位置 */
+.sub-menu .sub-memu-1 { left: 50px; }
+.sub-menu .sub-memu-2 { left: 170px; }
+.sub-menu .sub-memu-3 { left: 265px; }
+/* 自訂每一個選單的顏色 */
+.main-menu ul li.m1 span, .main-menu ul li.m1 a.selected { color: #f90; }
+.main-menu ul li.m2 span, .main-menu ul li.m2 a.selected { color: #09c; }
+.main-menu ul li.m3 span, .main-menu ul li.m3 a.selected { color: #3c0; }
+.main-menu ul li.m4 span, .main-menu ul li.m4 a.selected { color: #f6f; }
