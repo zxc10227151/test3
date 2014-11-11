@@ -50,3 +50,9 @@ body {
 .main-menu ul li.m2 span, .main-menu ul li.m2 a.selected { color: #09c; }
 .main-menu ul li.m3 span, .main-menu ul li.m3 a.selected { color: #3c0; }
 .main-menu ul li.m4 span, .main-menu ul li.m4 a.selected { color: #f6f; }
+
+
+
+#regist { 
+  margin: 0 auto; 
+}
